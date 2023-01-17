@@ -1,0 +1,120 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.background-style {
+  background-color: #050a26;
+}
+.nav,
+.nav a {
+  text-transform: uppercase;
+  color: white;
+}
+.nav a.active {
+  color: #475cfd;
+  font-weight: bold;
+}
+.nav a i.active {
+  color: #7fff00;
+}
+.nav a:hover {
+  color: #7fff00;
+}
+nav h5 {
+  padding-top: 9px;
+  font-weight: bold;
+  margin-left: 14px;
+}
+.main-style {
+  color: white;
+  margin-left: 10px;
+}
+.main-style h1 span {
+  font-weight: 500;
+  color: #475cfd;
+}
+.main-style p {
+  font-size: 20px;
+  padding: 10px 0 0;
+  text-align: justify;
+}
+.main-style button {
+  margin-top: 20px;
+}
+.card-body {
+  position: relative;
+  overflow: hidden;
+}
+img {
+  width: 50%;
+  position: absolute;
+  bottom: -58px;
+  right: -60px;
+}
+img.mypict-style {
+  width: 45%;
+}
+
+@media (max-width: 991.98px) {
+  body {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .main-style p {
+    text-align: justify;
+    padding: 0 0 0 0;
+    margin-bottom: 50px;
+  }
+  .main-style p.pfont-main {
+    font-size: 16px;
+  }
+  nav h5 {
+    padding-top: 9px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-left: 14px;
+  }
+  .main-style button {
+    margin-top: 20px;
+    font-size: 11px;
+    padding: 5px 11px 5px;
+    border-style: solid;
+  }
+  .main-style p {
+    font-size: 10px;
+    padding-top: 10;
+    padding-left: -5px;
+    padding-right: 20px;
+    padding-bottom: 90px;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+  }
+  .nav a {
+    font-size: 10px;
+  }
+  .nav,
+  .nav a {
+    text-transform: uppercase;
+    color: white;
+  }
+  .nav a.active {
+    color: #475cfd;
+    font-weight: bold;
+  }
+  .nav a:hover {
+    color: #475cfd;
+  }
+  .main-style button {
+    margin-top: -100px;
+  }
+  img {
+    width: 50%;
+    position: absolute;
+    bottom: -28px;
+    right: -30px;
+  }
+  img.mypict-style {
+    width: 45%;
+  }
+}
